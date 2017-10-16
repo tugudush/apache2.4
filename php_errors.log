@@ -1,0 +1,232 @@
+[30-May-2017 16:09:11 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:09:11 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:09:15 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:09:15 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:10:07 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:10:07 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:11:07 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:11:07 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:11:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:11:09 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:14:36 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:14:36 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:14:37 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:14:37 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:15:37 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:15:37 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:15:57 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:15:57 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:16:00 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:16:00 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[30-May-2017 16:16:01 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[30-May-2017 16:16:01 UTC] PHP Warning:  Cannot modify header information - headers already sent in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: curl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: fileinfo: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: gd: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: mbstring: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: mysqli: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: openssl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: curl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: fileinfo: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: gd: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: mbstring: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: mysqli: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: openssl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:10:34 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: curl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: fileinfo: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: gd: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: mbstring: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: mysqli: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: openssl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: curl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: fileinfo: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: gd: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: mbstring: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: mysqli: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: openssl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:36:01 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:29 UTC] PHP Warning:  PHP Startup: curl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:29 UTC] PHP Warning:  PHP Startup: fileinfo: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:29 UTC] PHP Warning:  PHP Startup: gd: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:29 UTC] PHP Warning:  PHP Startup: mbstring: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:29 UTC] PHP Warning:  PHP Startup: mysqli: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:29 UTC] PHP Warning:  PHP Startup: openssl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:29 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:30 UTC] PHP Warning:  PHP Startup: curl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:30 UTC] PHP Warning:  PHP Startup: fileinfo: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:30 UTC] PHP Warning:  PHP Startup: gd: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:30 UTC] PHP Warning:  PHP Startup: mbstring: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:30 UTC] PHP Warning:  PHP Startup: mysqli: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:30 UTC] PHP Warning:  PHP Startup: openssl: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[16-Oct-2017 09:39:30 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
