@@ -4941,3 +4941,45 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 [Mon Oct 16 19:49:03.830512 2017] [mpm_winnt:notice] [pid 11432:tid 832] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Mon Oct 16 19:49:05.831313 2017] [mpm_winnt:notice] [pid 8572:tid 804] AH00364: Child: All worker threads have exited.
 [Mon Oct 16 19:49:05.894895 2017] [mpm_winnt:notice] [pid 11432:tid 832] AH00430: Parent: Child process 8572 exited successfully.
+[Mon Oct 16 22:29:33.371022 2017] [ssl:warn] [pid 12624:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 16 22:29:33.482130 2017] [ssl:warn] [pid 12624:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 22:29:33.494641 2017] [mpm_winnt:notice] [pid 12624:tid 840] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Mon Oct 16 22:29:33.494641 2017] [mpm_winnt:notice] [pid 12624:tid 840] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Mon Oct 16 22:29:33.494641 2017] [core:notice] [pid 12624:tid 840] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 16 22:29:33.495141 2017] [mpm_winnt:notice] [pid 12624:tid 840] AH00418: Parent: Created child process 8468
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 16 22:29:33.725362 2017] [ssl:warn] [pid 8468:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 16 22:29:33.828462 2017] [ssl:warn] [pid 8468:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 22:29:33.837470 2017] [mpm_winnt:notice] [pid 8468:tid 788] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 16 22:30:43.106645 2017] [core:alert] [pid 8468:tid 1416] [client ::1:10322] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:47.442572 2017] [core:alert] [pid 8468:tid 1416] [client ::1:10327] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:48.078420 2017] [core:alert] [pid 8468:tid 1416] [client ::1:10329] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:48.599681 2017] [core:alert] [pid 8468:tid 1416] [client ::1:10330] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:48.994786 2017] [core:alert] [pid 8468:tid 1416] [client ::1:10332] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:49.350459 2017] [core:alert] [pid 8468:tid 1416] [client ::1:10333] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:49.685554 2017] [core:alert] [pid 8468:tid 1416] [client ::1:10334] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:49.914558 2017] [core:alert] [pid 8468:tid 1424] [client ::1:10335] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:50.115257 2017] [core:alert] [pid 8468:tid 1416] [client ::1:10337] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:50.387070 2017] [core:alert] [pid 8468:tid 1424] [client ::1:10338] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:50.836647 2017] [core:alert] [pid 8468:tid 1416] [client ::1:10339] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:30:51.244497 2017] [core:alert] [pid 8468:tid 1424] [client ::1:10340] C:/Apache24/htdocs/tdjci/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Oct 16 22:35:55.285395 2017] [mpm_winnt:notice] [pid 12624:tid 840] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 16 22:35:57.286968 2017] [mpm_winnt:notice] [pid 8468:tid 788] AH00364: Child: All worker threads have exited.
+[Mon Oct 16 22:35:57.346501 2017] [mpm_winnt:notice] [pid 12624:tid 840] AH00430: Parent: Child process 8468 exited successfully.
+[Mon Oct 16 22:36:22.910360 2017] [ssl:warn] [pid 10136:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 16 22:36:23.010082 2017] [ssl:warn] [pid 10136:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 22:36:23.018078 2017] [mpm_winnt:notice] [pid 10136:tid 840] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Mon Oct 16 22:36:23.018078 2017] [mpm_winnt:notice] [pid 10136:tid 840] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Mon Oct 16 22:36:23.018078 2017] [core:notice] [pid 10136:tid 840] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 16 22:36:23.019080 2017] [mpm_winnt:notice] [pid 10136:tid 840] AH00418: Parent: Created child process 3880
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 16 22:36:23.230788 2017] [ssl:warn] [pid 3880:tid 784] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 16 22:36:23.326482 2017] [ssl:warn] [pid 3880:tid 784] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 16 22:36:23.335502 2017] [mpm_winnt:notice] [pid 3880:tid 784] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 17 15:53:19.126296 2017] [mpm_winnt:notice] [pid 10136:tid 840] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 17 15:53:21.128854 2017] [mpm_winnt:notice] [pid 3880:tid 784] AH00364: Child: All worker threads have exited.
+[Tue Oct 17 15:53:21.208540 2017] [mpm_winnt:notice] [pid 10136:tid 840] AH00430: Parent: Child process 3880 exited successfully.
