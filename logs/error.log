@@ -4983,3 +4983,32 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 [Tue Oct 17 15:53:19.126296 2017] [mpm_winnt:notice] [pid 10136:tid 840] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue Oct 17 15:53:21.128854 2017] [mpm_winnt:notice] [pid 3880:tid 784] AH00364: Child: All worker threads have exited.
 [Tue Oct 17 15:53:21.208540 2017] [mpm_winnt:notice] [pid 10136:tid 840] AH00430: Parent: Child process 3880 exited successfully.
+[Thu Oct 19 19:06:31.693542 2017] [ssl:warn] [pid 4296:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 19 19:06:31.794708 2017] [ssl:warn] [pid 4296:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 19 19:06:31.819255 2017] [mpm_winnt:notice] [pid 4296:tid 844] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Thu Oct 19 19:06:31.819255 2017] [mpm_winnt:notice] [pid 4296:tid 844] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Thu Oct 19 19:06:31.819255 2017] [core:notice] [pid 4296:tid 844] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Oct 19 19:06:31.820255 2017] [mpm_winnt:notice] [pid 4296:tid 844] AH00418: Parent: Created child process 1148
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 19 19:06:32.163330 2017] [ssl:warn] [pid 1148:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 19 19:06:32.258549 2017] [ssl:warn] [pid 1148:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 19 19:06:32.268558 2017] [mpm_winnt:notice] [pid 1148:tid 788] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 19 20:31:29.223852 2017] [mpm_winnt:notice] [pid 4296:tid 844] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 19 20:31:31.225768 2017] [mpm_winnt:notice] [pid 1148:tid 788] AH00364: Child: All worker threads have exited.
+[Thu Oct 19 20:31:31.296437 2017] [mpm_winnt:notice] [pid 4296:tid 844] AH00430: Parent: Child process 1148 exited successfully.
+[Thu Oct 19 20:32:10.000983 2017] [ssl:warn] [pid 13620:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 19 20:32:10.101089 2017] [ssl:warn] [pid 13620:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 19 20:32:10.110098 2017] [mpm_winnt:notice] [pid 13620:tid 844] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Thu Oct 19 20:32:10.110098 2017] [mpm_winnt:notice] [pid 13620:tid 844] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Thu Oct 19 20:32:10.110098 2017] [core:notice] [pid 13620:tid 844] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Oct 19 20:32:10.110098 2017] [mpm_winnt:notice] [pid 13620:tid 844] AH00418: Parent: Created child process 15240
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 19 20:32:10.323026 2017] [ssl:warn] [pid 15240:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 19 20:32:10.419151 2017] [ssl:warn] [pid 15240:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 19 20:32:10.428145 2017] [mpm_winnt:notice] [pid 15240:tid 792] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 19 21:37:42.481088 2017] [mpm_winnt:notice] [pid 13620:tid 844] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 19 21:38:12.481625 2017] [mpm_winnt:notice] [pid 13620:tid 844] AH00431: Parent: Forcing termination of child process 15240
