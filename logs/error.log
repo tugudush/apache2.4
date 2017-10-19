@@ -5058,3 +5058,86 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 [Fri Oct 20 03:57:23.936875 2017] [php7:error] [pid 16108:tid 1400] [client 127.0.0.1:6809] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in C:\\Apache24\\htdocs\\thc-local\\wp-content\\plugins\\easy-contact-forms\\easy-contact-forms-database.php:152\nStack trace:\n#0 C:\\Apache24\\htdocs\\thc-local\\wp-content\\plugins\\easy-contact-forms\\easy-contact-forms-baseclass.php(147): EasyContactFormsDB::select('SELECT id, UseT...', Array)\n#1 C:\\Apache24\\htdocs\\thc-local\\wp-content\\plugins\\easy-contact-forms\\easy-contact-forms-applicationsettings.php(271): EasyContactFormsBase->getObjectData(1)\n#2 C:\\Apache24\\htdocs\\thc-local\\wp-content\\plugins\\easy-contact-forms\\easy-contact-forms.php(53): EasyContactFormsApplicationSettings::getInstance()\n#3 C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php(298): easycontactforms_update_db_check('')\n#4 C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)\n#5 C:\\Apache24\\htdocs\\thc-local\\wp-includes\\plugin.php(453): WP_Hook->do_action(Array)\n#6 C:\\Apache24\\htdocs\\thc-local\\wp-settings.php(325): do_action('pl in C:\\Apache24\\htdocs\\thc-local\\wp-content\\plugins\\easy-contact-forms\\easy-contact-forms-database.php on line 152
 [Fri Oct 20 03:57:29.114518 2017] [mpm_winnt:notice] [pid 12620:tid 836] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Fri Oct 20 03:57:59.115014 2017] [mpm_winnt:notice] [pid 12620:tid 836] AH00431: Parent: Forcing termination of child process 16108
+[Fri Oct 20 04:03:02.405505 2017] [ssl:warn] [pid 14952:tid 836] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 20 04:03:02.501627 2017] [ssl:warn] [pid 14952:tid 836] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: curl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: fileinfo: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: gd: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mbstring: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mysqli: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: openssl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+[Fri Oct 20 04:03:02.538993 2017] [mpm_winnt:notice] [pid 14952:tid 836] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Fri Oct 20 04:03:02.538993 2017] [mpm_winnt:notice] [pid 14952:tid 836] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Fri Oct 20 04:03:02.538993 2017] [core:notice] [pid 14952:tid 836] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 20 04:03:02.539802 2017] [mpm_winnt:notice] [pid 14952:tid 836] AH00418: Parent: Created child process 1652
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 20 04:03:02.742922 2017] [ssl:warn] [pid 1652:tid 784] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 20 04:03:02.834093 2017] [ssl:warn] [pid 1652:tid 784] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: curl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: fileinfo: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: gd: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mbstring: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mysqli: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: openssl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+[Fri Oct 20 04:03:02.847105 2017] [mpm_winnt:notice] [pid 1652:tid 784] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 20 04:03:59.861585 2017] [mpm_winnt:notice] [pid 14952:tid 836] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 20 04:04:29.861654 2017] [mpm_winnt:notice] [pid 14952:tid 836] AH00431: Parent: Forcing termination of child process 1652
+[Fri Oct 20 04:04:30.378607 2017] [ssl:warn] [pid 6948:tid 836] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 20 04:04:30.471714 2017] [ssl:warn] [pid 6948:tid 836] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: curl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: fileinfo: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: gd: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mbstring: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mysqli: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: openssl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+[Fri Oct 20 04:04:30.485229 2017] [mpm_winnt:notice] [pid 6948:tid 836] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Fri Oct 20 04:04:30.485229 2017] [mpm_winnt:notice] [pid 6948:tid 836] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Fri Oct 20 04:04:30.485229 2017] [core:notice] [pid 6948:tid 836] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 20 04:04:30.486230 2017] [mpm_winnt:notice] [pid 6948:tid 836] AH00418: Parent: Created child process 4812
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 20 04:04:30.688114 2017] [ssl:warn] [pid 4812:tid 784] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 20 04:04:30.777727 2017] [ssl:warn] [pid 4812:tid 784] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: curl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: fileinfo: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: gd: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mbstring: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mysqli: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: openssl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+[Fri Oct 20 04:04:30.791757 2017] [mpm_winnt:notice] [pid 4812:tid 784] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 20 04:13:59.916404 2017] [mpm_winnt:notice] [pid 6948:tid 836] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 20 04:14:01.917518 2017] [mpm_winnt:notice] [pid 4812:tid 784] AH00364: Child: All worker threads have exited.
+[Fri Oct 20 04:14:01.975491 2017] [mpm_winnt:notice] [pid 6948:tid 836] AH00430: Parent: Child process 4812 exited successfully.
+[Fri Oct 20 04:18:08.387318 2017] [ssl:warn] [pid 11576:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 20 04:18:08.486929 2017] [ssl:warn] [pid 11576:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: curl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: fileinfo: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: gd: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mbstring: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mysqli: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: openssl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+[Fri Oct 20 04:18:08.500959 2017] [mpm_winnt:notice] [pid 11576:tid 844] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Fri Oct 20 04:18:08.500959 2017] [mpm_winnt:notice] [pid 11576:tid 844] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Fri Oct 20 04:18:08.500959 2017] [core:notice] [pid 11576:tid 844] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 20 04:18:08.500959 2017] [mpm_winnt:notice] [pid 11576:tid 844] AH00418: Parent: Created child process 11288
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 20 04:18:08.710227 2017] [ssl:warn] [pid 11288:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::49a4:3b79:d3f5:c4ca. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 20 04:18:08.803303 2017] [ssl:warn] [pid 11288:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: curl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: fileinfo: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: gd: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mbstring: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: mysqli: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: openssl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
+[Fri Oct 20 04:18:08.817316 2017] [mpm_winnt:notice] [pid 11288:tid 788] AH00354: Child: Starting 64 worker threads.
