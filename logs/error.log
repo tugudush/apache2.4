@@ -5141,3 +5141,8 @@ PHP Warning:  PHP Startup: mysqli: Unable to initialize module\nModule compiled 
 PHP Warning:  PHP Startup: openssl: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
 PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20160303\nThese options need to match\n in Unknown on line 0
 [Fri Oct 20 04:18:08.817316 2017] [mpm_winnt:notice] [pid 11288:tid 788] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 20 04:18:47.055759 2017] [php7:warn] [pid 11288:tid 1380] [client 127.0.0.1:7207] PHP Warning:  require(C:\\Apache24\\htdocs\\tdj-laravel\\bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\tdj-laravel\\bootstrap\\autoload.php on line 17
+[Fri Oct 20 04:18:47.055759 2017] [php7:error] [pid 11288:tid 1380] [client 127.0.0.1:7207] PHP Fatal error:  require(): Failed opening required 'C:\\Apache24\\htdocs\\tdj-laravel\\bootstrap/../vendor/autoload.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\tdj-laravel\\bootstrap\\autoload.php on line 17
+[Fri Oct 20 04:23:13.433022 2017] [mpm_winnt:notice] [pid 11576:tid 844] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 20 04:23:15.433935 2017] [mpm_winnt:notice] [pid 11288:tid 788] AH00364: Child: All worker threads have exited.
+[Fri Oct 20 04:23:15.472825 2017] [mpm_winnt:notice] [pid 11576:tid 844] AH00430: Parent: Child process 11288 exited successfully.
