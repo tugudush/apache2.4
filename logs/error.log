@@ -1,0 +1,655 @@
+[Tue Nov 28 18:41:18.434516 2017] [ssl:warn] [pid 10424:tid 832] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 28 18:41:19.414766 2017] [ssl:warn] [pid 10424:tid 832] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 28 18:41:19.438259 2017] [mpm_winnt:notice] [pid 10424:tid 832] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Tue Nov 28 18:41:19.438259 2017] [mpm_winnt:notice] [pid 10424:tid 832] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Tue Nov 28 18:41:19.438259 2017] [core:notice] [pid 10424:tid 832] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Nov 28 18:41:19.439262 2017] [mpm_winnt:notice] [pid 10424:tid 832] AH00418: Parent: Created child process 19144
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 28 18:41:20.695627 2017] [ssl:warn] [pid 19144:tid 780] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 28 18:41:21.654664 2017] [ssl:warn] [pid 19144:tid 780] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 28 18:41:21.666677 2017] [mpm_winnt:notice] [pid 19144:tid 780] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 28 19:40:56.597503 2017] [mpm_winnt:notice] [pid 10424:tid 832] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 28 19:40:58.600252 2017] [mpm_winnt:notice] [pid 19144:tid 780] AH00364: Child: All worker threads have exited.
+[Tue Nov 28 19:40:58.635644 2017] [mpm_winnt:notice] [pid 10424:tid 832] AH00430: Parent: Child process 19144 exited successfully.
+[Tue Nov 28 19:41:02.027336 2017] [ssl:warn] [pid 16648:tid 848] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 28 19:41:03.025991 2017] [ssl:warn] [pid 16648:tid 848] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 28 19:41:03.046993 2017] [mpm_winnt:notice] [pid 16648:tid 848] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Tue Nov 28 19:41:03.047993 2017] [mpm_winnt:notice] [pid 16648:tid 848] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Tue Nov 28 19:41:03.047993 2017] [core:notice] [pid 16648:tid 848] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Nov 28 19:41:03.047993 2017] [mpm_winnt:notice] [pid 16648:tid 848] AH00418: Parent: Created child process 16400
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 28 19:41:04.138626 2017] [ssl:warn] [pid 16400:tid 780] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 28 19:41:05.068344 2017] [ssl:warn] [pid 16400:tid 780] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 28 19:41:05.079343 2017] [mpm_winnt:notice] [pid 16400:tid 780] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 29 16:50:09.884793 2017] [php7:warn] [pid 16400:tid 1396] [client 127.0.0.1:12900] PHP Warning:  include_once(Bitfinex.php): failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 6
+[Wed Nov 29 16:50:09.884793 2017] [php7:warn] [pid 16400:tid 1396] [client 127.0.0.1:12900] PHP Warning:  include_once(): Failed opening 'Bitfinex.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 6
+[Wed Nov 29 16:55:04.552539 2017] [php7:notice] [pid 16400:tid 1408] [client 127.0.0.1:13043] PHP Notice:  Undefined variable: ch in C:\\Apache24\\htdocs\\cryptobot\\config.inc.php on line 5
+[Wed Nov 29 16:55:04.552539 2017] [php7:warn] [pid 16400:tid 1408] [client 127.0.0.1:13043] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in C:\\Apache24\\htdocs\\cryptobot\\config.inc.php on line 5
+[Wed Nov 29 17:32:08.631728 2017] [mpm_winnt:notice] [pid 16648:tid 848] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 29 17:32:10.651069 2017] [mpm_winnt:notice] [pid 16400:tid 780] AH00364: Child: All worker threads have exited.
+[Wed Nov 29 17:32:10.682320 2017] [mpm_winnt:notice] [pid 16648:tid 848] AH00430: Parent: Child process 16400 exited successfully.
+[Wed Nov 29 17:43:19.545032 2017] [ssl:warn] [pid 11400:tid 892] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 17:43:19.546033 2017] [ssl:warn] [pid 11400:tid 892] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 29 17:43:20.510903 2017] [ssl:warn] [pid 11400:tid 892] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 17:43:20.511903 2017] [ssl:warn] [pid 11400:tid 892] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 17:43:20.663037 2017] [mpm_winnt:notice] [pid 11400:tid 892] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Wed Nov 29 17:43:20.663037 2017] [mpm_winnt:notice] [pid 11400:tid 892] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Wed Nov 29 17:43:20.663037 2017] [core:notice] [pid 11400:tid 892] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 29 17:43:20.664037 2017] [mpm_winnt:notice] [pid 11400:tid 892] AH00418: Parent: Created child process 11436
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 29 17:43:21.733038 2017] [ssl:warn] [pid 11436:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 17:43:21.734038 2017] [ssl:warn] [pid 11436:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 29 17:43:22.702455 2017] [ssl:warn] [pid 11436:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 17:43:22.702455 2017] [ssl:warn] [pid 11436:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 17:43:22.713458 2017] [mpm_winnt:notice] [pid 11436:tid 788] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 29 17:58:13.298207 2017] [php7:notice] [pid 11436:tid 1412] [client 127.0.0.1:3911] PHP Notice:  Undefined variable: config in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 6
+[Wed Nov 29 17:58:13.298207 2017] [php7:warn] [pid 11436:tid 1412] [client 127.0.0.1:3911] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 6
+[Wed Nov 29 17:58:13.298207 2017] [php7:notice] [pid 11436:tid 1412] [client 127.0.0.1:3911] PHP Notice:  Undefined variable: config in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 7
+[Wed Nov 29 17:58:13.298207 2017] [php7:warn] [pid 11436:tid 1412] [client 127.0.0.1:3911] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 7
+[Wed Nov 29 17:58:13.298207 2017] [php7:notice] [pid 11436:tid 1412] [client 127.0.0.1:3911] PHP Notice:  Undefined variable: config in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 8
+[Wed Nov 29 17:58:13.298207 2017] [php7:warn] [pid 11436:tid 1412] [client 127.0.0.1:3911] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 8
+[Wed Nov 29 17:58:13.298207 2017] [php7:notice] [pid 11436:tid 1412] [client 127.0.0.1:3911] PHP Notice:  Undefined variable: config in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 9
+[Wed Nov 29 17:58:13.298207 2017] [php7:warn] [pid 11436:tid 1412] [client 127.0.0.1:3911] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 9
+[Wed Nov 29 18:04:45.822939 2017] [mpm_winnt:notice] [pid 11400:tid 892] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 29 18:04:47.824276 2017] [mpm_winnt:notice] [pid 11436:tid 788] AH00364: Child: All worker threads have exited.
+[Wed Nov 29 18:04:47.908698 2017] [mpm_winnt:notice] [pid 11400:tid 892] AH00430: Parent: Child process 11436 exited successfully.
+[Wed Nov 29 18:04:49.518621 2017] [ssl:warn] [pid 2016:tid 848] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 18:04:49.518621 2017] [ssl:warn] [pid 2016:tid 848] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 29 18:04:50.515137 2017] [ssl:warn] [pid 2016:tid 848] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 18:04:50.515137 2017] [ssl:warn] [pid 2016:tid 848] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 18:04:50.525138 2017] [mpm_winnt:notice] [pid 2016:tid 848] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Wed Nov 29 18:04:50.525138 2017] [mpm_winnt:notice] [pid 2016:tid 848] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Wed Nov 29 18:04:50.525138 2017] [core:notice] [pid 2016:tid 848] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 29 18:04:50.526134 2017] [mpm_winnt:notice] [pid 2016:tid 848] AH00418: Parent: Created child process 3360
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 29 18:04:51.608956 2017] [ssl:warn] [pid 3360:tid 828] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 18:04:51.609955 2017] [ssl:warn] [pid 3360:tid 828] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 29 18:04:52.543439 2017] [ssl:warn] [pid 3360:tid 828] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 18:04:52.544438 2017] [ssl:warn] [pid 3360:tid 828] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 18:04:52.557440 2017] [mpm_winnt:notice] [pid 3360:tid 828] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 29 18:21:01.078281 2017] [php7:notice] [pid 3360:tid 1412] [client 127.0.0.1:7069] PHP Notice:  Array to string conversion in C:\\Apache24\\htdocs\\cryptobot\\index.php on line 14
+[Wed Nov 29 20:54:45.785297 2017] [mpm_winnt:notice] [pid 2016:tid 848] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 29 20:54:47.813905 2017] [mpm_winnt:notice] [pid 3360:tid 828] AH00364: Child: All worker threads have exited.
+[Wed Nov 29 20:54:47.845156 2017] [mpm_winnt:notice] [pid 2016:tid 848] AH00430: Parent: Child process 3360 exited successfully.
+[Wed Nov 29 21:23:18.038853 2017] [ssl:warn] [pid 13436:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 21:23:18.039852 2017] [ssl:warn] [pid 13436:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 29 21:23:19.073957 2017] [ssl:warn] [pid 13436:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 21:23:19.073957 2017] [ssl:warn] [pid 13436:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 21:23:19.237660 2017] [mpm_winnt:notice] [pid 13436:tid 840] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Wed Nov 29 21:23:19.237660 2017] [mpm_winnt:notice] [pid 13436:tid 840] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Wed Nov 29 21:23:19.237660 2017] [core:notice] [pid 13436:tid 840] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 29 21:23:19.238660 2017] [mpm_winnt:notice] [pid 13436:tid 840] AH00418: Parent: Created child process 13056
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 29 21:23:20.325820 2017] [ssl:warn] [pid 13056:tid 808] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 21:23:20.326821 2017] [ssl:warn] [pid 13056:tid 808] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 29 21:23:21.352457 2017] [ssl:warn] [pid 13056:tid 808] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 21:23:21.353457 2017] [ssl:warn] [pid 13056:tid 808] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 29 21:23:21.363445 2017] [mpm_winnt:notice] [pid 13056:tid 808] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 30 13:24:48.164315 2017] [ssl:warn] [pid 9516:tid 760] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 30 13:24:48.165315 2017] [ssl:warn] [pid 9516:tid 760] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 30 13:24:49.019246 2017] [core:warn] [pid 9516:tid 760] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 30 13:24:49.097255 2017] [ssl:warn] [pid 9516:tid 760] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 30 13:24:49.098257 2017] [ssl:warn] [pid 9516:tid 760] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 30 13:24:49.120759 2017] [mpm_winnt:notice] [pid 9516:tid 760] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Thu Nov 30 13:24:49.120759 2017] [mpm_winnt:notice] [pid 9516:tid 760] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Thu Nov 30 13:24:49.120759 2017] [core:notice] [pid 9516:tid 760] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 30 13:24:49.121760 2017] [mpm_winnt:notice] [pid 9516:tid 760] AH00418: Parent: Created child process 5680
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 30 13:24:50.165474 2017] [ssl:warn] [pid 5680:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 30 13:24:50.166491 2017] [ssl:warn] [pid 5680:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 30 13:24:51.091683 2017] [ssl:warn] [pid 5680:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 30 13:24:51.091683 2017] [ssl:warn] [pid 5680:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 30 13:24:51.101683 2017] [mpm_winnt:notice] [pid 5680:tid 792] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 30 14:33:16.279447 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286
+[Thu Nov 30 14:33:16.304448 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286
+[Thu Nov 30 14:33:16.306448 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286
+[Thu Nov 30 14:33:16.311462 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222
+[Thu Nov 30 14:33:16.311462 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  include(http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php): failed to open stream: no suitable wrapper could be found in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222
+[Thu Nov 30 14:33:16.311462 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  include(): Failed opening 'http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222
+[Thu Nov 30 14:33:16.312462 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286
+[Thu Nov 30 14:33:16.315462 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286
+[Thu Nov 30 14:33:16.318462 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286
+[Thu Nov 30 14:33:16.329453 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9358] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286
+[Thu Nov 30 14:33:36.119829 2017] [php7:warn] [pid 5680:tid 1424] [client 127.0.0.1:9411] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:33:36.162818 2017] [php7:warn] [pid 5680:tid 1424] [client 127.0.0.1:9411] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:33:36.165812 2017] [php7:warn] [pid 5680:tid 1424] [client 127.0.0.1:9411] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:33:36.172830 2017] [php7:warn] [pid 5680:tid 1424] [client 127.0.0.1:9411] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/
+[Thu Nov 30 14:33:36.173330 2017] [php7:warn] [pid 5680:tid 1424] [client 127.0.0.1:9411] PHP Warning:  include(http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php): failed to open stream: no suitable wrapper could be found in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/
+[Thu Nov 30 14:33:36.173330 2017] [php7:warn] [pid 5680:tid 1424] [client 127.0.0.1:9411] PHP Warning:  include(): Failed opening 'http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/
+[Thu Nov 30 14:33:36.173831 2017] [php7:warn] [pid 5680:tid 1424] [client 127.0.0.1:9411] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:33:56.026225 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:9473] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-login.php?redirect_to=http%3A%2F%2Fthc-local%2Fwp-admin%2F&reauth=1
+[Thu Nov 30 14:33:56.026225 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:9473] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-login.php?redirect_to=http%3A%2F%2Fthc-local%2Fwp-admin%2F&reauth=1
+[Thu Nov 30 14:33:56.051225 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:9473] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-login.php?redirect_to=http%3A%2F%2Fthc-local%2Fwp-admin%2F&reauth=1
+[Thu Nov 30 14:33:56.052226 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:9473] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-login.php?redirect_to=http%3A%2F%2Fthc-local%2Fwp-admin%2F&reauth=1
+[Thu Nov 30 14:33:56.055225 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:9473] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-login.php?redirect_to=http%3A%2F%2Fthc-local%2Fwp-admin%2F&reauth=1
+[Thu Nov 30 14:33:56.055225 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:9473] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-login.php?redirect_to=http%3A%2F%2Fthc-local%2Fwp-admin%2F&reauth=1
+[Thu Nov 30 14:33:56.069225 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:9473] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-login.php?redirect_to=http%3A%2F%2Fthc-local%2Fwp-admin%2F&reauth=1
+[Thu Nov 30 14:33:56.121237 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:9473] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-login.php?redirect_to=http%3A%2F%2Fthc-local%2Fwp-admin%2F&reauth=1
+[Thu Nov 30 14:33:57.276456 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9480] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:33:57.385956 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9480] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:33:57.388956 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9480] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:33:57.390955 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9480] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:33:57.397455 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:9480] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.209083 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.232071 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.234060 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.240071 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.240071 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  include(http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php): failed to open stream: no suitable wrapper could be found in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.240071 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  include(): Failed opening 'http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.241059 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.244073 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.247073 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:34:46.259076 2017] [php7:warn] [pid 5680:tid 1420] [client 127.0.0.1:9552] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/wp-admin/
+[Thu Nov 30 14:49:50.688939 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:10705] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:49:50.952634 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:10705] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:49:50.976634 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:10705] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:49:50.978634 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:10705] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:49:50.984633 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:10705] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/
+[Thu Nov 30 14:49:50.984633 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:10705] PHP Warning:  include(http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php): failed to open stream: no suitable wrapper could be found in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/
+[Thu Nov 30 14:49:50.984633 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:10705] PHP Warning:  include(): Failed opening 'http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/
+[Thu Nov 30 14:49:50.985633 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:10705] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:49:50.988633 2017] [php7:warn] [pid 5680:tid 1396] [client 127.0.0.1:10705] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:49:56.368255 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:10739] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:49:56.395268 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:10739] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:49:56.398270 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:10739] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 14:49:56.403264 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:10739] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/
+[Thu Nov 30 14:49:56.403264 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:10739] PHP Warning:  include(http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php): failed to open stream: no suitable wrapper could be found in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/
+[Thu Nov 30 14:49:56.403264 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:10739] PHP Warning:  include(): Failed opening 'http://thc-local/wp-content/themes/Genesis-Sandbox-HTML5/fbsdk.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\thc-local\\wp-content\\themes\\Genesis-Sandbox-HTML5\\functions.php on line 222, referer: http://thc-local/
+[Thu Nov 30 14:49:56.403264 2017] [php7:warn] [pid 5680:tid 1392] [client 127.0.0.1:10739] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'SearchFilter' not found or invalid function name in C:\\Apache24\\htdocs\\thc-local\\wp-includes\\class-wp-hook.php on line 286, referer: http://thc-local/
+[Thu Nov 30 20:19:34.054868 2017] [php7:crit] [pid 5680:tid 1424] [client 127.0.0.1:9948] PHP Parse error:  syntax error, unexpected 'var' (T_VAR), expecting end of file in C:\\Apache24\\htdocs\\websockets\\client.php on line 2, referer: http://websockets/
+[Thu Nov 30 20:20:24.440103 2017] [php7:crit] [pid 5680:tid 1420] [client 127.0.0.1:10225] PHP Parse error:  syntax error, unexpected 'var' (T_VAR), expecting end of file in C:\\Apache24\\htdocs\\websockets\\client.php on line 2, referer: http://websockets/
+[Thu Nov 30 20:20:49.664009 2017] [php7:crit] [pid 5680:tid 1432] [client 127.0.0.1:10359] PHP Parse error:  syntax error, unexpected '=' in C:\\Apache24\\htdocs\\websockets\\client.php on line 4, referer: http://websockets/
+[Fri Dec 01 15:05:52.722257 2017] [ssl:warn] [pid 8660:tid 548] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 01 15:05:52.723256 2017] [ssl:warn] [pid 8660:tid 548] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 01 15:05:53.578710 2017] [core:warn] [pid 8660:tid 548] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 01 15:05:53.653697 2017] [ssl:warn] [pid 8660:tid 548] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 01 15:05:53.654701 2017] [ssl:warn] [pid 8660:tid 548] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 01 15:05:53.675942 2017] [mpm_winnt:notice] [pid 8660:tid 548] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Fri Dec 01 15:05:53.675942 2017] [mpm_winnt:notice] [pid 8660:tid 548] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Fri Dec 01 15:05:53.675942 2017] [core:notice] [pid 8660:tid 548] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 01 15:05:53.676941 2017] [mpm_winnt:notice] [pid 8660:tid 548] AH00418: Parent: Created child process 7852
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 01 15:05:54.734660 2017] [ssl:warn] [pid 7852:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 01 15:05:54.735677 2017] [ssl:warn] [pid 7852:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 01 15:05:55.664537 2017] [ssl:warn] [pid 7852:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 01 15:05:55.664537 2017] [ssl:warn] [pid 7852:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 01 15:05:55.676535 2017] [mpm_winnt:notice] [pid 7852:tid 792] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 03 23:07:52.595643 2017] [ssl:warn] [pid 12152:tid 648] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 03 23:07:52.596644 2017] [ssl:warn] [pid 12152:tid 648] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 03 23:07:53.455359 2017] [core:warn] [pid 12152:tid 648] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 03 23:07:53.533375 2017] [ssl:warn] [pid 12152:tid 648] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 03 23:07:53.533874 2017] [ssl:warn] [pid 12152:tid 648] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 03 23:07:53.699226 2017] [mpm_winnt:notice] [pid 12152:tid 648] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Sun Dec 03 23:07:53.699226 2017] [mpm_winnt:notice] [pid 12152:tid 648] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Sun Dec 03 23:07:53.699226 2017] [core:notice] [pid 12152:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Dec 03 23:07:53.700225 2017] [mpm_winnt:notice] [pid 12152:tid 648] AH00418: Parent: Created child process 6012
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 03 23:07:54.773524 2017] [ssl:warn] [pid 6012:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 03 23:07:54.773524 2017] [ssl:warn] [pid 6012:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 03 23:07:55.706134 2017] [ssl:warn] [pid 6012:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 03 23:07:55.706134 2017] [ssl:warn] [pid 6012:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 03 23:07:55.718152 2017] [mpm_winnt:notice] [pid 6012:tid 792] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 03 23:55:01.137075 2017] [mpm_winnt:notice] [pid 12152:tid 648] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 03 23:55:03.156499 2017] [mpm_winnt:notice] [pid 6012:tid 792] AH00364: Child: All worker threads have exited.
+[Sun Dec 03 23:55:03.187749 2017] [mpm_winnt:notice] [pid 12152:tid 648] AH00430: Parent: Child process 6012 exited successfully.
+[Mon Dec 04 13:23:23.000022 2017] [ssl:warn] [pid 6520:tid 540] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 13:23:23.001022 2017] [ssl:warn] [pid 6520:tid 540] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 04 13:23:23.937512 2017] [ssl:warn] [pid 6520:tid 540] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 13:23:23.937512 2017] [ssl:warn] [pid 6520:tid 540] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 13:23:23.962512 2017] [mpm_winnt:notice] [pid 6520:tid 540] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Mon Dec 04 13:23:23.962512 2017] [mpm_winnt:notice] [pid 6520:tid 540] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Mon Dec 04 13:23:23.962512 2017] [core:notice] [pid 6520:tid 540] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 04 13:23:23.963513 2017] [mpm_winnt:notice] [pid 6520:tid 540] AH00418: Parent: Created child process 12140
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 04 13:23:25.016234 2017] [ssl:warn] [pid 12140:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 13:23:25.017234 2017] [ssl:warn] [pid 12140:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 04 13:23:25.944888 2017] [ssl:warn] [pid 12140:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 13:23:25.944888 2017] [ssl:warn] [pid 12140:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 13:23:25.954882 2017] [mpm_winnt:notice] [pid 12140:tid 792] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 04 14:23:40.074993 2017] [mpm_winnt:notice] [pid 6520:tid 540] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 04 14:23:42.084838 2017] [mpm_winnt:notice] [pid 12140:tid 792] AH00364: Child: All worker threads have exited.
+[Mon Dec 04 14:23:42.116089 2017] [mpm_winnt:notice] [pid 6520:tid 540] AH00430: Parent: Child process 12140 exited successfully.
+[Mon Dec 04 21:32:20.285073 2017] [ssl:warn] [pid 8632:tid 548] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 21:32:20.285073 2017] [ssl:warn] [pid 8632:tid 548] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 04 21:32:21.219405 2017] [ssl:warn] [pid 8632:tid 548] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 21:32:21.219405 2017] [ssl:warn] [pid 8632:tid 548] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 21:32:21.244406 2017] [mpm_winnt:notice] [pid 8632:tid 548] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Mon Dec 04 21:32:21.244406 2017] [mpm_winnt:notice] [pid 8632:tid 548] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Mon Dec 04 21:32:21.244406 2017] [core:notice] [pid 8632:tid 548] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 04 21:32:21.245407 2017] [mpm_winnt:notice] [pid 8632:tid 548] AH00418: Parent: Created child process 15260
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 04 21:32:22.287619 2017] [ssl:warn] [pid 15260:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 21:32:22.288618 2017] [ssl:warn] [pid 15260:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 04 21:32:23.214337 2017] [ssl:warn] [pid 15260:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 21:32:23.214838 2017] [ssl:warn] [pid 15260:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 04 21:32:23.224679 2017] [mpm_winnt:notice] [pid 15260:tid 792] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 05 20:22:24.093205 2017] [ssl:warn] [pid 4940:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 05 20:22:24.094209 2017] [ssl:warn] [pid 4940:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 05 20:22:24.950766 2017] [core:warn] [pid 4940:tid 844] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 05 20:22:25.021753 2017] [ssl:warn] [pid 4940:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 05 20:22:25.022753 2017] [ssl:warn] [pid 4940:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 05 20:22:25.044753 2017] [mpm_winnt:notice] [pid 4940:tid 844] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Tue Dec 05 20:22:25.044753 2017] [mpm_winnt:notice] [pid 4940:tid 844] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Tue Dec 05 20:22:25.044753 2017] [core:notice] [pid 4940:tid 844] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 05 20:22:25.045753 2017] [mpm_winnt:notice] [pid 4940:tid 844] AH00418: Parent: Created child process 6084
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 05 20:22:26.108496 2017] [ssl:warn] [pid 6084:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 05 20:22:26.109496 2017] [ssl:warn] [pid 6084:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 05 20:22:27.030631 2017] [ssl:warn] [pid 6084:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 05 20:22:27.030631 2017] [ssl:warn] [pid 6084:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 05 20:22:27.041635 2017] [mpm_winnt:notice] [pid 6084:tid 792] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 06 11:27:06.165320 2017] [ssl:warn] [pid 14480:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 06 11:27:06.166313 2017] [ssl:warn] [pid 14480:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 06 11:27:07.023290 2017] [core:warn] [pid 14480:tid 844] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 06 11:27:07.091242 2017] [ssl:warn] [pid 14480:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 06 11:27:07.092242 2017] [ssl:warn] [pid 14480:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 06 11:27:07.115269 2017] [mpm_winnt:notice] [pid 14480:tid 844] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Wed Dec 06 11:27:07.115269 2017] [mpm_winnt:notice] [pid 14480:tid 844] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Wed Dec 06 11:27:07.115269 2017] [core:notice] [pid 14480:tid 844] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Dec 06 11:27:07.116268 2017] [mpm_winnt:notice] [pid 14480:tid 844] AH00418: Parent: Created child process 13208
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 06 11:27:08.145874 2017] [ssl:warn] [pid 13208:tid 824] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 06 11:27:08.145874 2017] [ssl:warn] [pid 13208:tid 824] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 06 11:27:09.063494 2017] [ssl:warn] [pid 13208:tid 824] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 06 11:27:09.063494 2017] [ssl:warn] [pid 13208:tid 824] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 06 11:27:09.073495 2017] [mpm_winnt:notice] [pid 13208:tid 824] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 08 13:41:00.735567 2017] [ssl:warn] [pid 10288:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 08 13:41:00.736568 2017] [ssl:warn] [pid 10288:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 08 13:41:01.593254 2017] [core:warn] [pid 10288:tid 844] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 08 13:41:01.662956 2017] [ssl:warn] [pid 10288:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 08 13:41:01.663957 2017] [ssl:warn] [pid 10288:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 08 13:41:01.685955 2017] [mpm_winnt:notice] [pid 10288:tid 844] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Fri Dec 08 13:41:01.685955 2017] [mpm_winnt:notice] [pid 10288:tid 844] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Fri Dec 08 13:41:01.685955 2017] [core:notice] [pid 10288:tid 844] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 08 13:41:01.695957 2017] [mpm_winnt:notice] [pid 10288:tid 844] AH00418: Parent: Created child process 11888
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 08 13:41:02.826684 2017] [ssl:warn] [pid 11888:tid 816] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 08 13:41:02.827679 2017] [ssl:warn] [pid 11888:tid 816] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 08 13:41:03.751413 2017] [ssl:warn] [pid 11888:tid 816] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 08 13:41:03.752413 2017] [ssl:warn] [pid 11888:tid 816] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 08 13:41:03.762413 2017] [mpm_winnt:notice] [pid 11888:tid 816] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 12 19:36:26.485197 2017] [ssl:warn] [pid 8044:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:36:26.486196 2017] [ssl:warn] [pid 8044:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 12 19:36:27.344353 2017] [core:warn] [pid 8044:tid 844] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 12 19:36:27.431398 2017] [ssl:warn] [pid 8044:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:36:27.432399 2017] [ssl:warn] [pid 8044:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:36:27.459399 2017] [mpm_winnt:notice] [pid 8044:tid 844] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Tue Dec 12 19:36:27.459399 2017] [mpm_winnt:notice] [pid 8044:tid 844] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Tue Dec 12 19:36:27.459399 2017] [core:notice] [pid 8044:tid 844] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 12 19:36:27.472394 2017] [mpm_winnt:notice] [pid 8044:tid 844] AH00418: Parent: Created child process 10072
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 12 19:36:28.548418 2017] [ssl:warn] [pid 10072:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:36:28.549419 2017] [ssl:warn] [pid 10072:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 12 19:36:29.495244 2017] [ssl:warn] [pid 10072:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:36:29.495244 2017] [ssl:warn] [pid 10072:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:36:29.509245 2017] [mpm_winnt:notice] [pid 10072:tid 792] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 12 19:39:38.043686 2017] [mpm_winnt:notice] [pid 8044:tid 844] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 12 19:39:41.251323 2017] [mpm_winnt:notice] [pid 10072:tid 792] AH00364: Child: All worker threads have exited.
+[Tue Dec 12 19:39:41.278336 2017] [mpm_winnt:notice] [pid 8044:tid 844] AH00430: Parent: Child process 10072 exited successfully.
+[Tue Dec 12 19:39:42.978406 2017] [ssl:warn] [pid 3808:tid 852] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:39:42.979406 2017] [ssl:warn] [pid 3808:tid 852] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 12 19:39:43.922977 2017] [ssl:warn] [pid 3808:tid 852] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:39:43.922977 2017] [ssl:warn] [pid 3808:tid 852] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:39:43.933977 2017] [mpm_winnt:notice] [pid 3808:tid 852] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Tue Dec 12 19:39:43.933977 2017] [mpm_winnt:notice] [pid 3808:tid 852] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Tue Dec 12 19:39:43.933977 2017] [core:notice] [pid 3808:tid 852] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 12 19:39:43.945990 2017] [mpm_winnt:notice] [pid 3808:tid 852] AH00418: Parent: Created child process 3456
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 12 19:39:45.013022 2017] [ssl:warn] [pid 3456:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:39:45.014022 2017] [ssl:warn] [pid 3456:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 12 19:39:45.959935 2017] [ssl:warn] [pid 3456:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:39:45.959935 2017] [ssl:warn] [pid 3456:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 12 19:39:45.971952 2017] [mpm_winnt:notice] [pid 3456:tid 788] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 13 12:22:34.373563 2017] [ssl:warn] [pid 14940:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:22:34.374062 2017] [ssl:warn] [pid 14940:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 13 12:22:35.233275 2017] [core:warn] [pid 14940:tid 840] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 13 12:22:35.305629 2017] [ssl:warn] [pid 14940:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:22:35.305629 2017] [ssl:warn] [pid 14940:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:22:35.467710 2017] [mpm_winnt:notice] [pid 14940:tid 840] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Wed Dec 13 12:22:35.467710 2017] [mpm_winnt:notice] [pid 14940:tid 840] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Wed Dec 13 12:22:35.467710 2017] [core:notice] [pid 14940:tid 840] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Dec 13 12:22:35.476229 2017] [mpm_winnt:notice] [pid 14940:tid 840] AH00418: Parent: Created child process 9088
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 13 12:22:36.510895 2017] [ssl:warn] [pid 9088:tid 824] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:22:36.511896 2017] [ssl:warn] [pid 9088:tid 824] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 13 12:22:37.441225 2017] [ssl:warn] [pid 9088:tid 824] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:22:37.441225 2017] [ssl:warn] [pid 9088:tid 824] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:22:37.452226 2017] [mpm_winnt:notice] [pid 9088:tid 824] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 13 12:51:24.534503 2017] [mpm_winnt:notice] [pid 14940:tid 840] AH00428: Parent: child process 9088 exited with status 255 -- Restarting.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 13 12:51:25.543036 2017] [ssl:warn] [pid 14940:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:51:25.544035 2017] [ssl:warn] [pid 14940:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:51:25.554036 2017] [mpm_winnt:notice] [pid 14940:tid 840] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Wed Dec 13 12:51:25.554036 2017] [mpm_winnt:notice] [pid 14940:tid 840] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Wed Dec 13 12:51:25.554036 2017] [core:notice] [pid 14940:tid 840] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Dec 13 12:51:25.565037 2017] [mpm_winnt:notice] [pid 14940:tid 840] AH00418: Parent: Created child process 13544
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 13 12:51:26.628349 2017] [ssl:warn] [pid 13544:tid 828] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:51:26.628349 2017] [ssl:warn] [pid 13544:tid 828] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 13 12:51:27.559950 2017] [ssl:warn] [pid 13544:tid 828] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:51:27.559950 2017] [ssl:warn] [pid 13544:tid 828] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 13 12:51:27.569943 2017] [mpm_winnt:notice] [pid 13544:tid 828] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 14 15:35:58.111912 2017] [ssl:warn] [pid 13472:tid 852] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 15:35:58.112922 2017] [ssl:warn] [pid 13472:tid 852] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 14 15:35:58.969688 2017] [core:warn] [pid 13472:tid 852] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Dec 14 15:35:59.045222 2017] [ssl:warn] [pid 13472:tid 852] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 15:35:59.045222 2017] [ssl:warn] [pid 13472:tid 852] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 15:35:59.077219 2017] [mpm_winnt:notice] [pid 13472:tid 852] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Thu Dec 14 15:35:59.077219 2017] [mpm_winnt:notice] [pid 13472:tid 852] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Thu Dec 14 15:35:59.077219 2017] [core:notice] [pid 13472:tid 852] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Dec 14 15:35:59.086221 2017] [mpm_winnt:notice] [pid 13472:tid 852] AH00418: Parent: Created child process 11160
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 14 15:36:00.121776 2017] [ssl:warn] [pid 11160:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 15:36:00.121776 2017] [ssl:warn] [pid 11160:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 14 15:36:01.043404 2017] [ssl:warn] [pid 11160:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 15:36:01.044404 2017] [ssl:warn] [pid 11160:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 14 15:36:01.055390 2017] [mpm_winnt:notice] [pid 11160:tid 788] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 15 01:24:42.784237 2017] [mpm_winnt:notice] [pid 13472:tid 852] AH00428: Parent: child process 11160 exited with status 255 -- Restarting.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 01:24:44.001736 2017] [ssl:warn] [pid 13472:tid 852] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 01:24:44.002235 2017] [ssl:warn] [pid 13472:tid 852] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 01:24:44.012227 2017] [mpm_winnt:notice] [pid 13472:tid 852] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Fri Dec 15 01:24:44.012227 2017] [mpm_winnt:notice] [pid 13472:tid 852] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Fri Dec 15 01:24:44.012227 2017] [core:notice] [pid 13472:tid 852] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 15 01:24:44.034227 2017] [mpm_winnt:notice] [pid 13472:tid 852] AH00418: Parent: Created child process 12776
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 01:24:45.096867 2017] [ssl:warn] [pid 12776:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 01:24:45.099367 2017] [ssl:warn] [pid 12776:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 01:24:46.038114 2017] [ssl:warn] [pid 12776:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 01:24:46.038114 2017] [ssl:warn] [pid 12776:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 01:24:46.049097 2017] [mpm_winnt:notice] [pid 12776:tid 788] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 15 23:17:49.270330 2017] [ssl:warn] [pid 10416:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 23:17:49.271330 2017] [ssl:warn] [pid 10416:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 23:17:50.134670 2017] [core:warn] [pid 10416:tid 844] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 15 23:17:50.214172 2017] [ssl:warn] [pid 10416:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 23:17:50.214672 2017] [ssl:warn] [pid 10416:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 23:17:50.237438 2017] [mpm_winnt:notice] [pid 10416:tid 844] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Fri Dec 15 23:17:50.238420 2017] [mpm_winnt:notice] [pid 10416:tid 844] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Fri Dec 15 23:17:50.238420 2017] [core:notice] [pid 10416:tid 844] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 15 23:17:50.247421 2017] [mpm_winnt:notice] [pid 10416:tid 844] AH00418: Parent: Created child process 12644
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 23:17:51.300936 2017] [ssl:warn] [pid 12644:tid 804] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 23:17:51.301933 2017] [ssl:warn] [pid 12644:tid 804] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 15 23:17:52.230763 2017] [ssl:warn] [pid 12644:tid 804] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 23:17:52.230763 2017] [ssl:warn] [pid 12644:tid 804] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 15 23:17:52.242765 2017] [mpm_winnt:notice] [pid 12644:tid 804] AH00354: Child: Starting 64 worker threads.
+[Sat Dec 16 22:21:56.037027 2017] [ssl:warn] [pid 13828:tid 860] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 16 22:21:56.038027 2017] [ssl:warn] [pid 13828:tid 860] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 22:21:56.897518 2017] [core:warn] [pid 13828:tid 860] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Dec 16 22:21:56.975931 2017] [ssl:warn] [pid 13828:tid 860] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 16 22:21:56.975931 2017] [ssl:warn] [pid 13828:tid 860] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 16 22:21:57.001926 2017] [mpm_winnt:notice] [pid 13828:tid 860] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Sat Dec 16 22:21:57.001926 2017] [mpm_winnt:notice] [pid 13828:tid 860] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Sat Dec 16 22:21:57.001926 2017] [core:notice] [pid 13828:tid 860] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Dec 16 22:21:57.013414 2017] [mpm_winnt:notice] [pid 13828:tid 860] AH00418: Parent: Created child process 10072
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 22:21:58.167230 2017] [ssl:warn] [pid 10072:tid 436] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 16 22:21:58.167731 2017] [ssl:warn] [pid 10072:tid 436] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 16 22:21:59.095795 2017] [ssl:warn] [pid 10072:tid 436] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 16 22:21:59.096286 2017] [ssl:warn] [pid 10072:tid 436] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 16 22:21:59.109285 2017] [mpm_winnt:notice] [pid 10072:tid 436] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 17 05:16:02.723121 2017] [mpm_winnt:notice] [pid 13828:tid 860] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 17 05:16:04.726036 2017] [mpm_winnt:notice] [pid 10072:tid 436] AH00364: Child: All worker threads have exited.
+[Sun Dec 17 05:16:04.768856 2017] [mpm_winnt:notice] [pid 13828:tid 860] AH00430: Parent: Child process 10072 exited successfully.
+[Sun Dec 17 05:16:06.487859 2017] [ssl:warn] [pid 7116:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:16:06.488871 2017] [ssl:warn] [pid 7116:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 17 05:16:07.426682 2017] [ssl:warn] [pid 7116:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:16:07.427681 2017] [ssl:warn] [pid 7116:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:16:07.436678 2017] [mpm_winnt:notice] [pid 7116:tid 840] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Sun Dec 17 05:16:07.436678 2017] [mpm_winnt:notice] [pid 7116:tid 840] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Sun Dec 17 05:16:07.436678 2017] [core:notice] [pid 7116:tid 840] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Dec 17 05:16:07.446678 2017] [mpm_winnt:notice] [pid 7116:tid 840] AH00418: Parent: Created child process 9588
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 17 05:16:08.501018 2017] [ssl:warn] [pid 9588:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:16:08.502018 2017] [ssl:warn] [pid 9588:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 17 05:16:09.434968 2017] [ssl:warn] [pid 9588:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:16:09.434968 2017] [ssl:warn] [pid 9588:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:16:09.445968 2017] [mpm_winnt:notice] [pid 9588:tid 792] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 17 05:16:32.874705 2017] [mpm_winnt:notice] [pid 7116:tid 840] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 17 05:17:02.875390 2017] [mpm_winnt:notice] [pid 7116:tid 840] AH00431: Parent: Forcing termination of child process 9588
+[Sun Dec 17 05:17:04.095362 2017] [ssl:warn] [pid 10072:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:17:04.096360 2017] [ssl:warn] [pid 10072:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 17 05:17:05.033367 2017] [ssl:warn] [pid 10072:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:17:05.033367 2017] [ssl:warn] [pid 10072:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:17:05.044367 2017] [mpm_winnt:notice] [pid 10072:tid 840] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Sun Dec 17 05:17:05.044367 2017] [mpm_winnt:notice] [pid 10072:tid 840] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Sun Dec 17 05:17:05.044367 2017] [core:notice] [pid 10072:tid 840] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Dec 17 05:17:05.054368 2017] [mpm_winnt:notice] [pid 10072:tid 840] AH00418: Parent: Created child process 12280
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 17 05:17:06.109846 2017] [ssl:warn] [pid 12280:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:17:06.110346 2017] [ssl:warn] [pid 12280:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 17 05:17:07.041170 2017] [ssl:warn] [pid 12280:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:17:07.042170 2017] [ssl:warn] [pid 12280:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 17 05:17:07.053157 2017] [mpm_winnt:notice] [pid 12280:tid 792] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 17 05:17:10.550154 2017] [php7:warn] [pid 12280:tid 1428] [client 127.0.0.1:11020] PHP Warning:  require(C:\\Apache24\\htdocs\\orsumfund\\bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\orsumfund\\bootstrap\\autoload.php on line 17
+[Sun Dec 17 05:17:10.550154 2017] [php7:error] [pid 12280:tid 1428] [client 127.0.0.1:11020] PHP Fatal error:  require(): Failed opening required 'C:\\Apache24\\htdocs\\orsumfund\\bootstrap/../vendor/autoload.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\orsumfund\\bootstrap\\autoload.php on line 17
+[Sun Dec 17 05:19:01.196086 2017] [php7:warn] [pid 12280:tid 1404] [client 127.0.0.1:11152] PHP Warning:  require(C:\\Apache24\\htdocs\\orsumfund\\bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\orsumfund\\bootstrap\\autoload.php on line 17
+[Sun Dec 17 05:19:01.196086 2017] [php7:error] [pid 12280:tid 1404] [client 127.0.0.1:11152] PHP Fatal error:  require(): Failed opening required 'C:\\Apache24\\htdocs\\orsumfund\\bootstrap/../vendor/autoload.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\orsumfund\\bootstrap\\autoload.php on line 17
+[Sun Dec 17 05:19:03.120503 2017] [php7:warn] [pid 12280:tid 1404] [client 127.0.0.1:11152] PHP Warning:  require(C:\\Apache24\\htdocs\\orsumfund\\bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\orsumfund\\bootstrap\\autoload.php on line 17
+[Sun Dec 17 05:19:03.120503 2017] [php7:error] [pid 12280:tid 1404] [client 127.0.0.1:11152] PHP Fatal error:  require(): Failed opening required 'C:\\Apache24\\htdocs\\orsumfund\\bootstrap/../vendor/autoload.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\orsumfund\\bootstrap\\autoload.php on line 17
+[Sun Dec 17 05:19:04.552543 2017] [php7:warn] [pid 12280:tid 1404] [client 127.0.0.1:11152] PHP Warning:  require(C:\\Apache24\\htdocs\\orsumfund\\bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\orsumfund\\bootstrap\\autoload.php on line 17
+[Sun Dec 17 05:19:04.552543 2017] [php7:error] [pid 12280:tid 1404] [client 127.0.0.1:11152] PHP Fatal error:  require(): Failed opening required 'C:\\Apache24\\htdocs\\orsumfund\\bootstrap/../vendor/autoload.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\orsumfund\\bootstrap\\autoload.php on line 17
+[Sun Dec 17 05:22:23.171271 2017] [php7:error] [pid 12280:tid 1396] [client 127.0.0.1:11395] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in C:\\Apache24\\htdocs\\orsumfund\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:729\nStack trace:\n#0 C:\\Apache24\\htdocs\\orsumfund\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(729): ReflectionClass->__construct('config')\n#1 C:\\Apache24\\htdocs\\orsumfund\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(608): Illuminate\\Container\\Container->build('config')\n#2 C:\\Apache24\\htdocs\\orsumfund\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(575): Illuminate\\Container\\Container->resolve('config')\n#3 C:\\Apache24\\htdocs\\orsumfund\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(728): Illuminate\\Container\\Container->make('config')\n#4 C:\\Apache24\\htdocs\\orsumfund\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(106): Illuminate\\Foundation\\Application->make('config')\n#5 C:\\Apache24\\htdocs\\orsumfund\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(269): app('c in C:\\Apache24\\htdocs\\orsumfund\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php on line 729
+[Mon Dec 18 03:40:24.885211 2017] [php7:error] [pid 12280:tid 1400] [client 127.0.0.1:4098] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\Apache24\\htdocs\\orsumfund\\app\\Bitfinex.php on line 1075, referer: http://orsumfund/settings
+[Mon Dec 18 04:32:04.216037 2017] [php7:error] [pid 12280:tid 1400] [client 127.0.0.1:11748] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\Apache24\\htdocs\\orsumfund\\app\\Bitfinex.php on line 1111, referer: http://orsumfund/settings
+[Mon Dec 18 04:38:57.279169 2017] [php7:error] [pid 12280:tid 1396] [client 127.0.0.1:12887] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\Apache24\\htdocs\\orsumfund\\app\\Bitfinex.php on line 1075, referer: http://orsumfund/
+[Mon Dec 18 04:39:12.582908 2017] [php7:error] [pid 12280:tid 1400] [client 127.0.0.1:12788] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\Apache24\\htdocs\\orsumfund\\app\\Bitfinex.php on line 1075, referer: http://orsumfund/settings
+[Mon Dec 18 05:00:46.152121 2017] [php7:error] [pid 12280:tid 1400] [client 127.0.0.1:2195] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\Apache24\\htdocs\\orsumfund\\app\\Bitfinex.php on line 1111, referer: http://orsumfund/
+[Mon Dec 18 05:03:23.399118 2017] [php7:error] [pid 12280:tid 1388] [client 127.0.0.1:2647] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\Apache24\\htdocs\\orsumfund\\app\\Bitfinex.php on line 1111, referer: http://orsumfund/
+[Mon Dec 18 05:09:48.215736 2017] [php7:error] [pid 12280:tid 1388] [client 127.0.0.1:3663] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\Apache24\\htdocs\\orsumfund\\app\\Bitfinex.php on line 1111, referer: http://orsumfund/
+[Mon Dec 18 06:32:37.677042 2017] [php7:error] [pid 12280:tid 1412] [client 127.0.0.1:1656] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\Apache24\\htdocs\\orsumfund\\app\\Bitfinex.php on line 1075, referer: http://orsumfund/settings
+[Mon Dec 18 07:08:55.703580 2017] [mpm_winnt:notice] [pid 10072:tid 840] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 18 07:08:57.722495 2017] [mpm_winnt:notice] [pid 12280:tid 792] AH00364: Child: All worker threads have exited.
+[Mon Dec 18 07:08:57.753772 2017] [mpm_winnt:notice] [pid 10072:tid 840] AH00430: Parent: Child process 12280 exited successfully.
+[Mon Dec 18 07:09:57.961471 2017] [ssl:warn] [pid 16056:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 07:09:57.962469 2017] [ssl:warn] [pid 16056:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 18 07:09:58.909123 2017] [ssl:warn] [pid 16056:tid 844] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 07:09:58.909123 2017] [ssl:warn] [pid 16056:tid 844] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 07:09:59.071640 2017] [mpm_winnt:notice] [pid 16056:tid 844] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Mon Dec 18 07:09:59.071640 2017] [mpm_winnt:notice] [pid 16056:tid 844] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Mon Dec 18 07:09:59.071640 2017] [core:notice] [pid 16056:tid 844] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 18 07:09:59.081637 2017] [mpm_winnt:notice] [pid 16056:tid 844] AH00418: Parent: Created child process 15576
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 18 07:10:00.135862 2017] [ssl:warn] [pid 15576:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 07:10:00.136862 2017] [ssl:warn] [pid 15576:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 18 07:10:01.083895 2017] [ssl:warn] [pid 15576:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 07:10:01.083895 2017] [ssl:warn] [pid 15576:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 07:10:01.096395 2017] [mpm_winnt:notice] [pid 15576:tid 788] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 18 07:13:43.986889 2017] [php7:error] [pid 15576:tid 1404] [client 127.0.0.1:2190] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\Apache24\\htdocs\\orsumfund\\app\\Bitfinex.php on line 1075, referer: http://orsumfund/settings
+[Mon Dec 18 22:11:47.026665 2017] [ssl:warn] [pid 15312:tid 884] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 22:11:47.027679 2017] [ssl:warn] [pid 15312:tid 884] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 18 22:11:47.885186 2017] [core:warn] [pid 15312:tid 884] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 18 22:11:47.951708 2017] [ssl:warn] [pid 15312:tid 884] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 22:11:47.952208 2017] [ssl:warn] [pid 15312:tid 884] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 22:11:48.105699 2017] [mpm_winnt:notice] [pid 15312:tid 884] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Mon Dec 18 22:11:48.105699 2017] [mpm_winnt:notice] [pid 15312:tid 884] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Mon Dec 18 22:11:48.105699 2017] [core:notice] [pid 15312:tid 884] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 18 22:11:48.113697 2017] [mpm_winnt:notice] [pid 15312:tid 884] AH00418: Parent: Created child process 9992
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 18 22:11:49.147305 2017] [ssl:warn] [pid 9992:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 22:11:49.147805 2017] [ssl:warn] [pid 9992:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 18 22:11:50.062257 2017] [ssl:warn] [pid 9992:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 22:11:50.063256 2017] [ssl:warn] [pid 9992:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 18 22:11:50.073330 2017] [mpm_winnt:notice] [pid 9992:tid 788] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 20 01:56:55.804501 2017] [ssl:warn] [pid 8484:tid 552] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 01:56:55.805506 2017] [ssl:warn] [pid 8484:tid 552] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 20 01:56:56.660248 2017] [core:warn] [pid 8484:tid 552] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Dec 20 01:56:56.738790 2017] [ssl:warn] [pid 8484:tid 552] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 01:56:56.738790 2017] [ssl:warn] [pid 8484:tid 552] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 01:56:56.760790 2017] [mpm_winnt:notice] [pid 8484:tid 552] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Wed Dec 20 01:56:56.760790 2017] [mpm_winnt:notice] [pid 8484:tid 552] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Wed Dec 20 01:56:56.760790 2017] [core:notice] [pid 8484:tid 552] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Dec 20 01:56:56.769776 2017] [mpm_winnt:notice] [pid 8484:tid 552] AH00418: Parent: Created child process 14896
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 20 01:56:57.821172 2017] [ssl:warn] [pid 14896:tid 800] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 01:56:57.822172 2017] [ssl:warn] [pid 14896:tid 800] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 20 01:56:58.748565 2017] [ssl:warn] [pid 14896:tid 800] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 01:56:58.748565 2017] [ssl:warn] [pid 14896:tid 800] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 01:56:58.759567 2017] [mpm_winnt:notice] [pid 14896:tid 800] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 20 04:33:54.559680 2017] [mpm_winnt:notice] [pid 8484:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 20 04:33:56.578548 2017] [mpm_winnt:notice] [pid 14896:tid 800] AH00364: Child: All worker threads have exited.
+[Wed Dec 20 04:33:56.609799 2017] [mpm_winnt:notice] [pid 8484:tid 552] AH00430: Parent: Child process 14896 exited successfully.
+[Wed Dec 20 06:49:06.802746 2017] [ssl:warn] [pid 4280:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 06:49:06.803764 2017] [ssl:warn] [pid 4280:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 20 06:49:07.736647 2017] [ssl:warn] [pid 4280:tid 840] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 06:49:07.737147 2017] [ssl:warn] [pid 4280:tid 840] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 06:49:07.758094 2017] [mpm_winnt:notice] [pid 4280:tid 840] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Wed Dec 20 06:49:07.758094 2017] [mpm_winnt:notice] [pid 4280:tid 840] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Wed Dec 20 06:49:07.758094 2017] [core:notice] [pid 4280:tid 840] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Dec 20 06:49:07.767090 2017] [mpm_winnt:notice] [pid 4280:tid 840] AH00418: Parent: Created child process 14784
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 20 06:49:08.805112 2017] [ssl:warn] [pid 14784:tid 796] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 06:49:08.806115 2017] [ssl:warn] [pid 14784:tid 796] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 20 06:49:09.724704 2017] [ssl:warn] [pid 14784:tid 796] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 06:49:09.724704 2017] [ssl:warn] [pid 14784:tid 796] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 06:49:09.735701 2017] [mpm_winnt:notice] [pid 14784:tid 796] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 20 17:57:43.754180 2017] [mpm_winnt:notice] [pid 4280:tid 840] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 20 17:57:45.756758 2017] [mpm_winnt:notice] [pid 14784:tid 796] AH00364: Child: All worker threads have exited.
+[Wed Dec 20 17:57:45.798828 2017] [mpm_winnt:notice] [pid 4280:tid 840] AH00430: Parent: Child process 14784 exited successfully.
+[Wed Dec 20 17:58:31.531901 2017] [ssl:warn] [pid 14528:tid 868] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 17:58:31.531901 2017] [ssl:warn] [pid 14528:tid 868] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 20 17:58:32.468162 2017] [ssl:warn] [pid 14528:tid 868] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 17:58:32.468162 2017] [ssl:warn] [pid 14528:tid 868] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 17:58:32.487172 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Wed Dec 20 17:58:32.487172 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Wed Dec 20 17:58:32.487172 2017] [core:notice] [pid 14528:tid 868] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Dec 20 17:58:32.497176 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00418: Parent: Created child process 5028
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 20 17:58:33.657774 2017] [ssl:warn] [pid 5028:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 17:58:33.657774 2017] [ssl:warn] [pid 5028:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 20 17:58:34.586074 2017] [ssl:warn] [pid 5028:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 17:58:34.587074 2017] [ssl:warn] [pid 5028:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 20 17:58:34.597076 2017] [mpm_winnt:notice] [pid 5028:tid 792] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 21 09:58:40.819318 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00428: Parent: child process 5028 exited with status 255 -- Restarting.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 09:58:42.409258 2017] [ssl:warn] [pid 14528:tid 868] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 09:58:42.410259 2017] [ssl:warn] [pid 14528:tid 868] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 09:58:42.429762 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Thu Dec 21 09:58:42.429762 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Thu Dec 21 09:58:42.429762 2017] [core:notice] [pid 14528:tid 868] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Dec 21 09:58:42.439267 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00418: Parent: Created child process 10728
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 09:58:43.524006 2017] [ssl:warn] [pid 10728:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 09:58:43.524506 2017] [ssl:warn] [pid 10728:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 09:58:44.459008 2017] [ssl:warn] [pid 10728:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 09:58:44.459008 2017] [ssl:warn] [pid 10728:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 09:58:44.469974 2017] [mpm_winnt:notice] [pid 10728:tid 792] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 21 10:25:29.905619 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00428: Parent: child process 10728 exited with status 255 -- Restarting.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 10:25:30.913528 2017] [ssl:warn] [pid 14528:tid 868] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:25:30.914528 2017] [ssl:warn] [pid 14528:tid 868] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:25:30.922523 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Thu Dec 21 10:25:30.922523 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Thu Dec 21 10:25:30.922523 2017] [core:notice] [pid 14528:tid 868] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Dec 21 10:25:30.944557 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00418: Parent: Created child process 10880
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 10:25:32.099733 2017] [ssl:warn] [pid 10880:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:25:32.100733 2017] [ssl:warn] [pid 10880:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 10:25:33.033973 2017] [ssl:warn] [pid 10880:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:25:33.034473 2017] [ssl:warn] [pid 10880:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:25:33.044608 2017] [mpm_winnt:notice] [pid 10880:tid 792] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 21 10:54:27.120754 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00428: Parent: child process 10880 exited with status 255 -- Restarting.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 10:54:28.151874 2017] [ssl:warn] [pid 14528:tid 868] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:54:28.152885 2017] [ssl:warn] [pid 14528:tid 868] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:54:28.165876 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Thu Dec 21 10:54:28.165876 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Thu Dec 21 10:54:28.165876 2017] [core:notice] [pid 14528:tid 868] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Dec 21 10:54:28.195889 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00418: Parent: Created child process 18704
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 10:54:29.381195 2017] [ssl:warn] [pid 18704:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:54:29.382193 2017] [ssl:warn] [pid 18704:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 10:54:30.320536 2017] [ssl:warn] [pid 18704:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:54:30.321036 2017] [ssl:warn] [pid 18704:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 10:54:30.330533 2017] [mpm_winnt:notice] [pid 18704:tid 792] AH00354: Child: Starting 64 worker threads.
+zend_mm_heap corrupted
+[Thu Dec 21 11:28:19.840143 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00428: Parent: child process 18704 exited with status 1 -- Restarting.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 11:28:21.047042 2017] [ssl:warn] [pid 14528:tid 868] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 11:28:21.047042 2017] [ssl:warn] [pid 14528:tid 868] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 11:28:21.056043 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Thu Dec 21 11:28:21.056043 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Thu Dec 21 11:28:21.056043 2017] [core:notice] [pid 14528:tid 868] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Dec 21 11:28:21.070041 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00418: Parent: Created child process 17800
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 11:28:22.228212 2017] [ssl:warn] [pid 17800:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 11:28:22.229212 2017] [ssl:warn] [pid 17800:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 11:28:23.169599 2017] [ssl:warn] [pid 17800:tid 788] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 11:28:23.169599 2017] [ssl:warn] [pid 17800:tid 788] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 11:28:23.178600 2017] [mpm_winnt:notice] [pid 17800:tid 788] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 21 12:02:01.976338 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00428: Parent: child process 17800 exited with status 255 -- Restarting.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 12:02:03.007460 2017] [ssl:warn] [pid 14528:tid 868] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 12:02:03.008459 2017] [ssl:warn] [pid 14528:tid 868] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 12:02:03.016459 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00455: Apache/2.4.25 (Win64) OpenSSL/1.0.2k PHP/7.1.10 configured -- resuming normal operations
+[Thu Dec 21 12:02:03.016459 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 11:15:57
+[Thu Dec 21 12:02:03.016459 2017] [core:notice] [pid 14528:tid 868] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Dec 21 12:02:03.037460 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00418: Parent: Created child process 16192
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 12:02:04.203989 2017] [ssl:warn] [pid 16192:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 12:02:04.204978 2017] [ssl:warn] [pid 16192:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1584:a721:3200:5b3a. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 21 12:02:05.147822 2017] [ssl:warn] [pid 16192:tid 792] AH01909: gmap:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 12:02:05.147822 2017] [ssl:warn] [pid 16192:tid 792] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 21 12:02:05.158822 2017] [mpm_winnt:notice] [pid 16192:tid 792] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 21 12:36:57.535879 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 21 12:36:59.538653 2017] [mpm_winnt:notice] [pid 16192:tid 792] AH00364: Child: All worker threads have exited.
+[Thu Dec 21 12:36:59.581670 2017] [mpm_winnt:notice] [pid 14528:tid 868] AH00430: Parent: Child process 16192 exited successfully.
