@@ -1,0 +1,267 @@
+# Virtual Hosts
+#
+# Required modules: mod_log_config
+
+# If you want to maintain multiple domains/hostnames on your
+# machine you can setup VirtualHost containers for them. Most configurations
+# use only name-based virtual hosts so the server doesn't need to worry about
+# IP addresses. This is indicated by the asterisks in the directives below.
+#
+# Please see the documentation at 
+# <URL:http://httpd.apache.org/docs/2.4/vhosts/>
+# for further details before you try to setup virtual hosts.
+#
+# You may use the command line option '-S' to verify your virtual host
+# configuration.
+
+#
+# VirtualHost example:
+# Almost any Apache directive may go into a VirtualHost container.
+# The first VirtualHost section is used for all requests that do not
+# match a ServerName or ServerAlias in any <VirtualHost> block.
+#
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs"
+    ServerName localhost
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/phpinfo"
+    ServerName phpinfo
+	ErrorLog "htdocs/phpmyadmin/error.log"
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/phpmyadmin"
+    ServerName phpmyadmin
+	ErrorLog "htdocs/phpmyadmin/error.log"
+</VirtualHost>
+
+<VirtualHost *:80>
+	DocumentRoot "C:/Apache24/htdocs/template"
+	ServerName template
+	ErrorLog "htdocs/template/error.log"
+</VirtualHost>
+
+<VirtualHost *:80>
+	DocumentRoot "C:/Apache24/htdocs/shift-local"
+	ServerName shift-local
+	ErrorLog "htdocs/shift-local/error.log"
+</VirtualHost>
+
+<VirtualHost *:80>
+	DocumentRoot "C:/Apache24/htdocs/fz-local"
+	ServerName fz-local
+	ErrorLog "htdocs/fz-local/error.log"
+</VirtualHost>
+
+<VirtualHost *:80>
+	DocumentRoot "C:/Apache24/htdocs/firstjet"
+	ServerName firstjet	
+</VirtualHost>
+
+<VirtualHost *:80>
+	DocumentRoot "C:/Apache24/htdocs/icon-driving"
+	ServerName icon-driving
+	ErrorLog "htdocs/icon-driving/error.log"
+</VirtualHost>
+
+<VirtualHost *:80>
+	DocumentRoot "C:/Apache24/htdocs/thc-local"
+	ServerName thc-local	
+</VirtualHost>
+
+<VirtualHost *:80>
+	DocumentRoot "C:/Apache24/htdocs/gmcw-local"
+	ServerName gmcw-local	
+</VirtualHost>
+
+<VirtualHost *:80>
+	DocumentRoot "C:/Apache24/htdocs/lgs"
+	ServerName lgs
+	ErrorLog "htdocs/lgs/error.log"
+</VirtualHost>
+
+<VirtualHost *:80>
+	DocumentRoot "C:/Apache24/htdocs/bitcointools"
+	ServerName bitcointools
+	ErrorLog "htdocs/bitcointools/error.log"
+</VirtualHost>
+
+<VirtualHost *:80>    
+    ServerName facebook	
+	DocumentRoot "C:/Apache24/htdocs/fb"
+	ErrorLog "htdocs/fb/error.log"	
+</VirtualHost>
+
+<VirtualHost *:80>    
+    ServerName sbar-local
+	DocumentRoot "C:/Apache24/htdocs/sbar-local"
+	ErrorLog "htdocs/sbar-local/error.log"	
+</VirtualHost>
+
+<VirtualHost *:80>    
+    ServerName tdj-local
+	DocumentRoot "C:/Apache24/htdocs/tdj-local/public"	
+</VirtualHost>
+
+<VirtualHost *:80>    
+    ServerName orsum
+	DocumentRoot "C:/Apache24/htdocs/orsum/public"
+</VirtualHost>
+
+<VirtualHost *:80>    
+    ServerName orsumv2
+	DocumentRoot "C:/Apache24/htdocs/orsumv2/public"
+</VirtualHost>
+
+<VirtualHost *:80>    
+    ServerName orsumcom
+	DocumentRoot "C:/Apache24/htdocs/orsumcom/public"
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/cryptobot
+    ServerName cryptobot
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/inverell-council/public
+    ServerName inverell-council
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/orsumfund/public
+    ServerName orsumfund
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/cryptofund/public
+    ServerName cryptofund
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/wordpressdev
+    ServerName wordpressdev
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/davidbell/public
+    ServerName davidbell
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/limousine/public
+    ServerName limousine
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/tfp/public
+    ServerName tfp
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/flingr/public
+    ServerName flingr
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/webtheos/public
+    ServerName webtheos
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/waw-local
+    ServerName waw-local
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/fb
+    ServerName fb
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/php-practitioner/The-PHP-Practitioner-Episode-16
+    ServerName php-practitioner-16
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/php-oop
+    ServerName php-oop
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/composer-tutorial
+    ServerName composer-tutorial
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/laracast/public
+    ServerName laracast
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/rajasfashions/public
+    ServerName rajasfashions
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/rfwp
+    ServerName rfwp
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/rfwp2
+    ServerName rfwp2
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/btwt-local
+    ServerName btwt-local
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/willowtree-local
+    ServerName willowtree-local
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/playground
+    ServerName playground
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/hbar-local
+    ServerName hbar-local
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/hogsbar/public
+    ServerName hogsbar
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/bwm-local
+    ServerName bwm-local
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/bradbaldridge
+    ServerName bradbaldridge
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/owm-provsol
+    ServerName owm-provsol
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/austcham_web/public
+    ServerName austcham_web
+</VirtualHost>
+
+<VirtualHost *:80>    
+    DocumentRoot "c:/Apache24/htdocs/arthrozene
+    ServerName arthrozene
+</VirtualHost>
