@@ -1,3 +1,4 @@
 logs/
 htdocs/
 conf/extra/httpd-vhosts.conf
+conf/extra/httpd-ssl.conf
